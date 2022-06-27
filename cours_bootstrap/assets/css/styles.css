@@ -1,0 +1,37 @@
+.logo
+{
+    padding: 0 150px;   
+}
+.cc-navbar
+{
+    
+    background-color: #7A7A7A;
+    box-shadow: 1px 1px 3px ;
+    
+}
+.cc-navbar .nav-link
+{
+    
+    border-bottom: 1px solid transparent;
+    transition: padding-botton 0.4s ease-in-out, border-color 0.3S ease;
+    
+}
+.cc-navbar .nav-link:hover
+{
+    padding-bottom: 5px;
+    border-bottom-color: var(--bs-teal) ;
+   
+}
+.btn-order
+{
+    /*coler: var(--bs-teal);*/
+    border-color: var(--bs-teal);
+    transition: 0.5S;
+}
+.btn-order:hover,
+.btn-order:active
+{
+    color : #fff;
+    background-color: var(--bs-teal);
+}
+
